@@ -174,13 +174,40 @@ button{
   padding: 10px;
   border-radius: 12px;
 }
-@media screen and (max-width:1034px) {
+@media screen and (max-width:1330px) {
   .blog-cards{
     display: flex;
     flex-direction: column;
   }
   
 }
+@media screen and (max-width:720px) {
+  .cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .faq-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .download-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vw;
+  }
+  .footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  }
+
 
   
 
